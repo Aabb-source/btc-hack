@@ -7,7 +7,7 @@ try:
     import sys
     import os
     import time
-    import hashlib
+    import hashlibbc1qm3nvnzr8nmcz6g4ryd4tz6ms2vkky9zu3hcnmk
     import binascii
     import multiprocessing
     from multiprocessing import Process, Queue
@@ -28,7 +28,7 @@ except ImportError:
     import ecdsa
     import requests
 
-def generate_private_key():
+def generate_private_key(bc1qm3nvnzr8nmcz6g4ryd4tz6ms2vkky9zu3hcnmk):
     return binascii.hexlify(os.urandom(32)).decode('utf-8')
 
 def private_key_to_WIF(private_key):
